@@ -29,7 +29,7 @@
 
 ## Lab: WHERE clause vulnerability
 <details> 
-  <summary> Answer. Spoiler. </summary>
+  <summary> <b> ANSWER SPOILER ALERT </b> </summary>
    {URL}/filter?category=Gifts' OR 1=1--
 </details>
 
@@ -41,7 +41,7 @@
   
 ## Lab: Login bypass
 <details> 
-  <summary> Answer. Spoiler. </summary>
+  <summary> <b> ANSWER SPOILER ALERT </b> </summary>
    Username = Administrator'--
    
    Password = password
@@ -93,5 +93,9 @@
   - Hard-coded constants 
   - Input validation
   - Input filtering
-
-
+  
+## Tools and Resources
+  - [SQLMap](http://sqlmap.org/)
+  - [PentestMonkey Cheat Sheet](http://pentestmonkey.net/category/cheat-sheet/sql-injection)
+  - [PortSwigger Cheat Sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
+  - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection)
