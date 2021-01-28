@@ -1,4 +1,4 @@
-# SQL Injection
+# [SQL Injection Learning Path](https://portswigger.net/web-security/sql-injection)
 ## What is SQLi?
   - Vulnerability allowing attackers to interfere with database queries
   - Typically allows an attacker to view data they can't normally see such as user information or information retrieved by the application
